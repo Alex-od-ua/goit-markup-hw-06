@@ -755,10 +755,21 @@ p {
   font-style: 400;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 14px;
   letter-spacing: 0.01em;
 
   color: #757575;
+}
+
+.modal-form textarea::placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+
+  color: rgba(117, 117, 117, 0.5);
 }
 
 .modal-style {
@@ -791,6 +802,11 @@ p {
   border-radius: 4px;
 }
 
+.www2 {
+  align-items: center;
+  justify-content: center;
+}
+
 .submit-btn {
   display: flex;
   padding: 10px 52px;
@@ -812,5 +828,27 @@ p {
 }
 
 .modal-chb {
-  margin: 0;
+  /* margin: 0; */
+}
+
+.privacy-policy {
+  font-style: 400;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.policy-accent {
+  font-style: 400;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+
+  /* text-decoration: underline; */
 }
