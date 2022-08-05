@@ -682,6 +682,75 @@ p {
   background-color: var(--accent-color);
 }
 
+.subscribe-form {
+  display: flex;
+  margin-left: auto;
+}
+
+.subscribe-text {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 20px;
+
+  font-style: 400;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.subscribe-input {
+  width: 358px;
+  height: 50px;
+
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.wwwwww2 input::placeholder {
+  padding-left: 16px;
+
+  font-style: 400;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.wwwwww {
+  /* display: flex;
+  justify-content: flex-end; */
+}
+
+.subscribe-btn {
+  width: 200px;
+  height: 50px;
+  margin-top: 48px;
+  margin-left: 12px;
+  padding: 0;
+
+  font-style: 400;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 2.25;
+
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+}
 /* ---------- modal ---------- */
 
 .backdrop {
@@ -825,10 +894,6 @@ p {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: 0;
-}
-
-.modal-chb {
-  /* margin: 0; */
 }
 
 .privacy-policy {
