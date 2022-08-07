@@ -952,6 +952,7 @@ p {
 }
 
 .policy-accent {
+  margin-left: 4px;
   font-style: 400;
   font-weight: 400;
   font-size: 14px;
@@ -971,7 +972,7 @@ p {
 .policy-icon {
   position: absolute;
   top: 4.3px;
-  left: 22px;
+  left: 20px;
   fill: transparent;
 }
 
