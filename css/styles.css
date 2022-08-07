@@ -897,11 +897,6 @@ p {
   resize: none;
   outline: none;
 
-  /* font-style: 400;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.16;
-  letter-spacing: 0.01em; */
   color: #000000;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -914,9 +909,11 @@ p {
 }
 
 .checkbox-item {
+  position: relative;
   display: flex;
+  align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .submit-btn {
@@ -940,6 +937,10 @@ p {
 }
 
 .privacy-policy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   font-style: 400;
   font-weight: 400;
   font-size: 14px;
@@ -967,7 +968,23 @@ p {
   -moz-appearance: none;
 }
 
+.policy-icon {
+  position: absolute;
+  top: 4.3px;
+  left: 22px;
+  fill: transparent;
+}
+
+.policy-icon-none {
+  margin-right: 8px;
+}
+
 .modal-checkbox:checked + .policy-icon {
   background-image: url(../images/symbol-defs.svg/#icon-icon-check);
-  background-color: #000000;
+  /* background-color: #000000; */
+  fill: var(--accent-color);
+}
+
+.modal-checkbox:checked ~ .policy-icon-none {
+  fill: var(--accent-color);
 }
